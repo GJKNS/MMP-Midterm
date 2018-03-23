@@ -1,0 +1,106 @@
+
+.nav-container{ 	
+width:100%; 
+background-color: #808287;
+box-shadow: 2px 2px 20px #7E7F79;  
+position:fixed; 
+left:0;  
+top:0;
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:18px;  
+font-family:courier, Arial, sans-serif;
+}  
+
+.nav-container li{
+float: left; /*each seperate item tries to float left*/
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 200px; 
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #f2d500; /*colors the buttons initially*/
+color:#e28e1f;
+} 
+
+.nav-container a:hover{ 
+background-color: #42f4ee;
+/* changes link-box color on rollover*/ 
+}
+
+.nav-container a:visited{ 
+background-color: #d5e5e4;
+/* changes link-box color on rollover*/ 
+}
+/***********************************/
+
+/* AMERICANLIFE BANNER*/
+
+.mybanner{ 
+	/*box-sizing:border-box;
+	display:block;*/
+	max-width:100%; 
+	max-height: auto;
+	margin:-100 auto;
+	}
+
+/***********************************/
+
+
+.center-responsive{ 
+	display:block;
+	max-width:100%; 
+	max-height: 100%;
+	margin:0 auto;
+	}
+	/*the "audio" elemnt was too narrow*/
+audio{
+ 	width:100%;
+}
+
+/***********************************/
+
+/* VIDEO */
+.video-apollo{
+	display:block;
+	max-width:100%; 
+	max-height: 100%;
+	margin:0 auto;
+}
+
+/***********************************/
+
+/* GIF animation */
+.anim2{
+	border: solid 15px #cccccc;
+	
+}
+/***********************************/
+/*The rest is mostly old stuff*/
+body{
+	margin: 80px 15% 50px 15%;
+	background-color: #9ba1a3;
+	/* A Google Font*/
+	font-family: 'Pathway Gothic One', sans-serif;	
+	color:#115268;
+	
+	}
+
+
+h2{
+	font-size: 36px;
+	margin-bottom: 0;
+	}
+p{
+	text-align: justify;
+	}
+
